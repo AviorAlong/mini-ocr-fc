@@ -1,0 +1,23 @@
+service: serverless-hello-world
+
+provider:
+  name: aliyun                            # cloud platform name
+
+functions:
+  index:                              # functionName
+    handler: index.test            # handler name
+    events:                           # function events
+      - http:
+          method: get
+          path: /test
+  accurate:
+    handler: index.accurate
+    events:                           # function events
+      - http:
+          method: post
+          path: /accurate
+package:
+  artifact: code.zip
+
+
+## complete yml definition, see: https://www.yuque.com/midwayjs/faas/serverless_yml
