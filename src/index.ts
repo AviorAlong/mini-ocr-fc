@@ -20,7 +20,7 @@ export class IndexService  {
   @Func('index.accurate')
   async accurate() {
     try {
-      const body = this.ctx.req.body
+      const body = this.ctx.request.body
       let image = '';
       if(body && body.image){
         image = body.image

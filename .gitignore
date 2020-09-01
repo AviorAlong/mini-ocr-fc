@@ -17,3 +17,5 @@ AUTHORS
 .serverless
 .env_temp
 .faas_debug_tmp
+abtest
+abtest/*

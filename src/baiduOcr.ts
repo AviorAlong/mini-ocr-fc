@@ -11,9 +11,9 @@ export class BaiduOcr {
 	constructor() {
 		this.config = {
 			"host": "https://aip.baidubce.com",
-			"client_secret": "ADNU8yRYXluzLArkT7D7VxsMVaFjX6Qu",
+			"client_secret": "",
 			"grant_type": "client_credentials",
-			"client_id": "zRS1pC2CfeYIfkjhxD8mthiM"
+			"client_id": ""
 		}
 		this.authCache = {
 			access_token: '',

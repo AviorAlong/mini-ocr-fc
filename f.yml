@@ -1,4 +1,4 @@
-service: serverless-hello-world
+service: serverless-ocr
 
 provider:
   name: aliyun                            # cloud platform name
